@@ -1,0 +1,18 @@
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.tmp
+*.log
+*.pdb
+
+# Packages
+packages/
+*.nupkg
+
+# Build folders
+bin/
+obj/
+
+# Others
+*.cache

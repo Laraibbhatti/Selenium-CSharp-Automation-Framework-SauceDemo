@@ -1,0 +1,3933 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <title></title>
+ <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/commons/img/logo.png">
+ <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/commons/img/logo.png">
+ <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@78fa5a2421587b8228150e93142e5ba97178e85b/spark/css/spark-style.css" rel="stylesheet" />
+ <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+ <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@78fa5a2421587b8228150e93142e5ba97178e85b/spark/js/jsontree.js"></script>
+ <style></style>
+</head>
+<body class="spa  standard">
+ <div class="app">
+  <div class="layout">
+   <div class="header navbar">
+ <div class="vheader">
+  <div class="nav-logo">
+   <a href="#">
+	 <div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c43b89d03a7c43dae8bb8f0f078bad1997af6b3b/commons/img/logo.png')"></div>
+   </a>
+  </div>
+  <ul class="nav-left">
+   <li class="search-box">
+	<a class="search-toggle" href="#"><i class="search-icon fa fa-search"></i><i class="search-icon-close fa fa-close"></i></a>
+   </li>
+   <li class="search-input">
+    <input id="search-tests" class="form-control" type="text" placeholder="Search...">
+   </li>
+  </ul>
+  <ul class="nav-right">
+   <li class="m-r-10"><a href="#"><span class="badge badge-primary"></span></a></li>
+   <li class="m-r-10">
+    <a href="#"><span class="badge badge-primary">2/13/2026 9:21:08 AM</span></a>
+   </li>
+  </ul>
+ </div>
+</div>
+   <div class="side-nav">
+ <div class="side-nav-inner">
+  <ul class="side-nav-menu">
+   <li class="nav-item dropdown" onclick="toggleView('test-view')">
+    <a id="nav-test" class="dropdown-toggle" href="#">
+     <span class="ico"><i class="fa fa-list"></i></span>
+    </a>
+   </li>
+            <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+    <a id="nav-dashboard" class="dropdown-toggle" href="#">
+     <span class="ico"><i class="fa fa-bar-chart"></i></span>
+    </a>
+   </li>
+  </ul>
+ </div>
+</div>
+
+   <div class="vcontainer">
+    <div class="main-content">
+     
+
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+      <ul class="tools pull-left">
+        <li><a href="#"><span class="font-size-14">Tests</span></a></li>
+      </ul>
+      <ul class="tools text-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+          <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+ <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>                                                 <div class="dropdown-divider"></div>
+            <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+          </ul>
+        </li>
+                      </ul>
+    </div>
+    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item" status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">CartTestCase_001_AddSingleProduct</p>
+            <p class="text-sm">
+              <span>9:21:14 AM</span> / <span>9405.8 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">CartTestCase_001_AddSingleProduct</h5>
+                  <span class='badge badge-success'>2/13/2026 9:21:14 AM</span>
+                  <span class='badge badge-danger'>2/13/2026 9:21:24 AM</span>
+                  <span class='badge badge-default'>9405.8 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>9395.82</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="2">Add Single Product</div>
+                                  </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:21:16</td>
+        <td>
+Enter URL          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092116.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092116.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:21:18</td>
+        <td>
+Enter Username          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092117.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092117.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:21:19</td>
+        <td>
+Enter Password          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092119.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092119.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:21:20</td>
+        <td>
+Click on Login Button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092120.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092120.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:21:22</td>
+        <td>
+Backpack added          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092121.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092121.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:21:23</td>
+        <td>
+Cart opened          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092122.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092122.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:21:24</td>
+        <td>
+Single product added to cart successfully                  </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">CartTestCase_002_AddMultipleProducts</p>
+            <p class="text-sm">
+              <span>9:21:36 AM</span> / <span>12460.29 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">CartTestCase_002_AddMultipleProducts</h5>
+                  <span class='badge badge-success'>2/13/2026 9:21:36 AM</span>
+                  <span class='badge badge-danger'>2/13/2026 9:21:48 AM</span>
+                  <span class='badge badge-default'>12460.29 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>12459.29</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="4">Add Multiple Products</div>
+                                  </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:21:37</td>
+        <td>
+Enter URL          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092136.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092136.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:21:39</td>
+        <td>
+Enter Username          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092139.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092139.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:21:40</td>
+        <td>
+Enter Password          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092140.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092140.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:21:42</td>
+        <td>
+Click on Login Button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092141.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092141.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:21:43</td>
+        <td>
+Backpack added          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092143.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092143.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:21:44</td>
+        <td>
+Bike light added          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092144.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092144.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:21:45</td>
+        <td>
+Bolt T-Shirt added          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092145.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092145.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:21:47</td>
+        <td>
+Cart opened          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092147.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092147.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:21:48</td>
+        <td>
+Multiple products added to cart                  </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">CartTestCase_003_RemoveProduct</p>
+            <p class="text-sm">
+              <span>9:21:51 AM</span> / <span>9956.15 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">CartTestCase_003_RemoveProduct</h5>
+                  <span class='badge badge-success'>2/13/2026 9:21:51 AM</span>
+                  <span class='badge badge-danger'>2/13/2026 9:22:01 AM</span>
+                  <span class='badge badge-default'>9956.15 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>9953.17</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="6">Remove Product</div>
+                                  </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:21:54</td>
+        <td>
+Enter URL          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092154.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092154.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:21:55</td>
+        <td>
+Enter Username          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092155.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092155.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:21:57</td>
+        <td>
+Enter Password          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092157.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092157.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:21:58</td>
+        <td>
+Click on Login Button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092158.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092158.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:21:59</td>
+        <td>
+Backpack added          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092159.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092159.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:00</td>
+        <td>
+Cart opened          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092200.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092200.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:00</td>
+        <td>
+Clicked Remove button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092200.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092200.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:01</td>
+        <td>
+Product removed successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092201.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092201.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:01</td>
+        <td>
+Product removed from cart                  </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">CartTestCase_004_OpenEmptyCart</p>
+            <p class="text-sm">
+              <span>9:22:06 AM</span> / <span>8779.08 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">CartTestCase_004_OpenEmptyCart</h5>
+                  <span class='badge badge-success'>2/13/2026 9:22:06 AM</span>
+                  <span class='badge badge-danger'>2/13/2026 9:22:15 AM</span>
+                  <span class='badge badge-default'>8779.08 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>8775.43</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="8">Open Empty Cart</div>
+                                  </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:08</td>
+        <td>
+Enter URL          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092208.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092208.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:10</td>
+        <td>
+Enter Username          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092210.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092210.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:11</td>
+        <td>
+Enter Password          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092211.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092211.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:12</td>
+        <td>
+Click on Login Button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092212.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092212.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:14</td>
+        <td>
+Cart opened          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092214.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092214.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Feb 13, 2026 09:22:15</td>
+        <td>
+Opened empty cart successfully                  </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">CartTestCase_005_AddRemoveAddAgain</p>
+            <p class="text-sm">
+              <span>9:22:18 AM</span> / <span>12960.39 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">CartTestCase_005_AddRemoveAddAgain</h5>
+                  <span class='badge badge-success'>2/13/2026 9:22:18 AM</span>
+                  <span class='badge badge-danger'>2/13/2026 9:22:31 AM</span>
+                  <span class='badge badge-default'>12960.39 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>12958.4</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="10">Add Remove Add Again</div>
+                                  </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:20</td>
+        <td>
+Enter URL          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092220.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092220.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:21</td>
+        <td>
+Enter Username          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092221.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092221.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:22</td>
+        <td>
+Enter Password          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092222.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092222.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:24</td>
+        <td>
+Click on Login Button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092223.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092223.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:25</td>
+        <td>
+Backpack added          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092225.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092225.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:26</td>
+        <td>
+Cart opened          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092226.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092226.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:27</td>
+        <td>
+Clicked Remove button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092227.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092227.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:28</td>
+        <td>
+Product removed successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092228.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092228.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:29</td>
+        <td>
+Backpack added safely          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092229.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092229.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:30</td>
+        <td>
+Cart opened          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092230.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092230.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:31</td>
+        <td>
+Add → Remove → Add again flow successful                  </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">CartTestCase_006_CheckoutButtonVisible</p>
+            <p class="text-sm">
+              <span>9:22:35 AM</span> / <span>9318.48 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">CartTestCase_006_CheckoutButtonVisible</h5>
+                  <span class='badge badge-success'>2/13/2026 9:22:35 AM</span>
+                  <span class='badge badge-danger'>2/13/2026 9:22:44 AM</span>
+                  <span class='badge badge-default'>9318.48 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>9316.5</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="12">Checkout Button Visibility</div>
+                                  </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:36</td>
+        <td>
+Enter URL          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092236.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092236.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:38</td>
+        <td>
+Enter Username          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092237.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092237.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:39</td>
+        <td>
+Enter Password          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092239.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092239.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:41</td>
+        <td>
+Click on Login Button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092241.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092241.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:42</td>
+        <td>
+Backpack added          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092242.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092242.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:43</td>
+        <td>
+Cart opened          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092243.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092243.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:44</td>
+        <td>
+Checkout button is visible                  </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">CartTestCase_007_AddProductAfterBack</p>
+            <p class="text-sm">
+              <span>9:22:47 AM</span> / <span>11510.84 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">CartTestCase_007_AddProductAfterBack</h5>
+                  <span class='badge badge-success'>2/13/2026 9:22:47 AM</span>
+                  <span class='badge badge-danger'>2/13/2026 9:22:58 AM</span>
+                  <span class='badge badge-default'>11510.84 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>11506.85</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="14">Add Product After Back</div>
+                                  </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:48</td>
+        <td>
+Enter URL          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092248.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092248.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:50</td>
+        <td>
+Enter Username          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092250.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092250.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:51</td>
+        <td>
+Enter Password          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092251.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092251.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:53</td>
+        <td>
+Click on Login Button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092252.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092252.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:54</td>
+        <td>
+Backpack added          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092254.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092254.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:55</td>
+        <td>
+Cart opened          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092255.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092255.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:56</td>
+        <td>
+Bike light added          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092256.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092256.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:57</td>
+        <td>
+Cart opened          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092257.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092257.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:22:58</td>
+        <td>
+Product added after navigating back                  </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">CartTestCase_008_MultipleCartOpen</p>
+            <p class="text-sm">
+              <span>9:23:01 AM</span> / <span>12643 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">CartTestCase_008_MultipleCartOpen</h5>
+                  <span class='badge badge-success'>2/13/2026 9:23:01 AM</span>
+                  <span class='badge badge-danger'>2/13/2026 9:23:14 AM</span>
+                  <span class='badge badge-default'>12643 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>12642.01</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="16">Open Cart Multiple Times</div>
+                                  </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:23:03</td>
+        <td>
+Enter URL          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092303.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092303.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:23:05</td>
+        <td>
+Enter Username          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092304.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092304.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:23:06</td>
+        <td>
+Enter Password          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092306.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092306.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:23:07</td>
+        <td>
+Click on Login Button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092307.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092307.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:23:09</td>
+        <td>
+Backpack added          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092308.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092308.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:23:09</td>
+        <td>
+Cart opened          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092309.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092309.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:23:13</td>
+        <td>
+Cart opened          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092313.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092313.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:23:14</td>
+        <td>
+Cart opened multiple times successfully                  </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="17"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">CheckoutTestCase_001_SingleProduct</p>
+            <p class="text-sm">
+              <span>9:23:22 AM</span> / <span>14384.44 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">CheckoutTestCase_001_SingleProduct</h5>
+                  <span class='badge badge-success'>2/13/2026 9:23:22 AM</span>
+                  <span class='badge badge-danger'>2/13/2026 9:23:36 AM</span>
+                  <span class='badge badge-default'>14384.44 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>14382.54</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="18">Checkout - Single Product</div>
+                                  </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:23:24</td>
+        <td>
+Enter URL          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092324.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092324.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:23:25</td>
+        <td>
+Enter Username          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092325.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092325.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:23:26</td>
+        <td>
+Enter Password          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092326.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092326.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:23:28</td>
+        <td>
+Click on Login Button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092328.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092328.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:23:29</td>
+        <td>
+Backpack added          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092329.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092329.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:23:30</td>
+        <td>
+Cart opened          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092330.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092330.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:23:30</td>
+        <td>
+Clicked Checkout button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092330.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092330.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:23:31</td>
+        <td>
+Entered First Name: Ali          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092331.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092331.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:23:32</td>
+        <td>
+Entered Last Name: Khan          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092331.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092331.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:23:32</td>
+        <td>
+Entered Postal Code: 54000          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092332.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092332.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:23:32</td>
+        <td>
+Clicked Continue button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092332.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092332.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:23:34</td>
+        <td>
+Clicked Finish button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092334.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092334.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:23:35</td>
+        <td>
+Clicked Confirm button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092335.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092335.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:23:36</td>
+        <td>
+Order success header verified          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092336.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092336.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:23:36</td>
+        <td>
+Single product checkout successful                  </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="19"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">CheckoutTestCase_002_MultipleProducts</p>
+            <p class="text-sm">
+              <span>9:23:54 AM</span> / <span>16404.24 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">CheckoutTestCase_002_MultipleProducts</h5>
+                  <span class='badge badge-success'>2/13/2026 9:23:54 AM</span>
+                  <span class='badge badge-danger'>2/13/2026 9:24:11 AM</span>
+                  <span class='badge badge-default'>16404.24 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>16403.24</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="20">Checkout - Multiple Products</div>
+                                  </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:23:56</td>
+        <td>
+Enter URL          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092356.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092356.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:23:57</td>
+        <td>
+Enter Username          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092357.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092357.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:23:58</td>
+        <td>
+Enter Password          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092358.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092358.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:00</td>
+        <td>
+Click on Login Button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092400.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092400.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:01</td>
+        <td>
+Backpack added          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092401.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092401.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:03</td>
+        <td>
+Bike light added          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092403.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092403.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:04</td>
+        <td>
+Bolt T-Shirt added          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092404.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092404.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:06</td>
+        <td>
+Cart opened          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092405.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092405.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:06</td>
+        <td>
+Clicked Checkout button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092406.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092406.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:07</td>
+        <td>
+Entered First Name: Ali          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092407.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092407.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:08</td>
+        <td>
+Entered Last Name: Khan          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092407.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092407.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:08</td>
+        <td>
+Entered Postal Code: 54000          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092408.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092408.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:08</td>
+        <td>
+Clicked Continue button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092408.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092408.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:10</td>
+        <td>
+Clicked Finish button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092410.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092410.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:11</td>
+        <td>
+Order success header verified          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092411.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092411.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:11</td>
+        <td>
+Multiple products checkout successful                  </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="21"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">CheckoutTestCase_003_EmptyFirstName</p>
+            <p class="text-sm">
+              <span>9:24:20 AM</span> / <span>11438.21 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">CheckoutTestCase_003_EmptyFirstName</h5>
+                  <span class='badge badge-success'>2/13/2026 9:24:20 AM</span>
+                  <span class='badge badge-danger'>2/13/2026 9:24:31 AM</span>
+                  <span class='badge badge-default'>11438.21 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>11437.22</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="22">Checkout - Empty First Name</div>
+                                  </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:22</td>
+        <td>
+Enter URL          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092421.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092421.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:23</td>
+        <td>
+Enter Username          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092423.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092423.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:24</td>
+        <td>
+Enter Password          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092424.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092424.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:26</td>
+        <td>
+Click on Login Button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092425.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092425.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:27</td>
+        <td>
+Backpack added          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092427.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092427.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:27</td>
+        <td>
+Cart opened          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092427.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092427.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:28</td>
+        <td>
+Clicked Checkout button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092428.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092428.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:29</td>
+        <td>
+Entered First Name:           
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092429.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092429.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:29</td>
+        <td>
+Entered Last Name: Khan          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092429.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092429.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:30</td>
+        <td>
+Entered Postal Code: 54000          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092429.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092429.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:30</td>
+        <td>
+Clicked Continue button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092430.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092430.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:31</td>
+        <td>
+Checkout error message displayed          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092431.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092431.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:31</td>
+        <td>
+Validation message displayed for empty first name                  </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="23"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">CheckoutTestCase_004_EmptyPostalCode</p>
+            <p class="text-sm">
+              <span>9:24:41 AM</span> / <span>11880.75 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">CheckoutTestCase_004_EmptyPostalCode</h5>
+                  <span class='badge badge-success'>2/13/2026 9:24:41 AM</span>
+                  <span class='badge badge-danger'>2/13/2026 9:24:53 AM</span>
+                  <span class='badge badge-default'>11880.75 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>11878.93</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="24">Checkout - Empty Postal Code</div>
+                                  </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:44</td>
+        <td>
+Enter URL          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092443.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092443.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:45</td>
+        <td>
+Enter Username          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092445.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092445.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:46</td>
+        <td>
+Enter Password          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092446.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092446.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:48</td>
+        <td>
+Click on Login Button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092448.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092448.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:49</td>
+        <td>
+Backpack added          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092449.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092449.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:50</td>
+        <td>
+Cart opened          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092449.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092449.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:50</td>
+        <td>
+Clicked Checkout button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092450.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092450.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:51</td>
+        <td>
+Entered First Name: Ali          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092451.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092451.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:52</td>
+        <td>
+Entered Last Name: Khan          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092451.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092451.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:52</td>
+        <td>
+Entered Postal Code:           
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092452.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092452.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:52</td>
+        <td>
+Clicked Continue button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092452.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092452.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:53</td>
+        <td>
+Checkout error message displayed          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092453.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092453.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:24:53</td>
+        <td>
+Validation message displayed for empty postal code                  </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="25"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestCase_001_validEmailValidPassword_positive</p>
+            <p class="text-sm">
+              <span>9:25:51 AM</span> / <span>8182.1 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestCase_001_validEmailValidPassword_positive</h5>
+                  <span class='badge badge-success'>2/13/2026 9:25:51 AM</span>
+                  <span class='badge badge-danger'>2/13/2026 9:25:59 AM</span>
+                  <span class='badge badge-default'>8182.1 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>8181.1</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="26">Login Page - Positive Login</div>
+                                  </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:25:53</td>
+        <td>
+Enter URL          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092552.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092552.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:25:54</td>
+        <td>
+Enter Username          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092554.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092554.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:25:55</td>
+        <td>
+Enter Password          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092555.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092555.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:25:57</td>
+        <td>
+Click on Login Button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092556.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092556.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:25:59</td>
+        <td>
+Login successful with valid credentials                  </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="27"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestCase_002_invalidPassword</p>
+            <p class="text-sm">
+              <span>9:26:14 AM</span> / <span>7994.44 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestCase_002_invalidPassword</h5>
+                  <span class='badge badge-success'>2/13/2026 9:26:14 AM</span>
+                  <span class='badge badge-danger'>2/13/2026 9:26:22 AM</span>
+                  <span class='badge badge-default'>7994.44 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>7991.05</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="28">Login Page - Invalid Password</div>
+                                  </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:26:16</td>
+        <td>
+Enter URL          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092616.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092616.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:26:18</td>
+        <td>
+Enter Username          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092617.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092617.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:26:19</td>
+        <td>
+Enter Password          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092619.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092619.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:26:20</td>
+        <td>
+Click on Login Button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092620.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092620.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Feb 13, 2026 09:26:22</td>
+        <td>
+Attempted login with invalid password: wrong_pass                  </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="29"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestCase_003_invalidUsername</p>
+            <p class="text-sm">
+              <span>9:26:26 AM</span> / <span>7605.53 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestCase_003_invalidUsername</h5>
+                  <span class='badge badge-success'>2/13/2026 9:26:26 AM</span>
+                  <span class='badge badge-danger'>2/13/2026 9:26:33 AM</span>
+                  <span class='badge badge-default'>7605.53 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>7604.54</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="30">Login Page - Invalid Username</div>
+                                  </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:26:27</td>
+        <td>
+Enter URL          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092627.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092627.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:26:29</td>
+        <td>
+Enter Username          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092629.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092629.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:26:30</td>
+        <td>
+Enter Password          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092630.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092630.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:26:31</td>
+        <td>
+Click on Login Button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092631.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092631.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Feb 13, 2026 09:26:33</td>
+        <td>
+Attempted login with invalid username: invalid_user                  </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="31"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestCase_004_emptyCredentials</p>
+            <p class="text-sm">
+              <span>9:27:19 AM</span> / <span>7680.91 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestCase_004_emptyCredentials</h5>
+                  <span class='badge badge-success'>2/13/2026 9:27:19 AM</span>
+                  <span class='badge badge-danger'>2/13/2026 9:27:27 AM</span>
+                  <span class='badge badge-default'>7680.91 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>7679.91</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="32">Login Page - Empty Credentials</div>
+                                  </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:27:21</td>
+        <td>
+Enter URL          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092720.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092720.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:27:22</td>
+        <td>
+Enter Username          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092722.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092722.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:27:23</td>
+        <td>
+Enter Password          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092723.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092723.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:27:24</td>
+        <td>
+Click on Login Button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092724.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092724.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Feb 13, 2026 09:27:27</td>
+        <td>
+Attempted login with empty credentials                  </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="33"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestCase_005_passwordCaseSensitivity</p>
+            <p class="text-sm">
+              <span>9:27:36 AM</span> / <span>7586.01 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestCase_005_passwordCaseSensitivity</h5>
+                  <span class='badge badge-success'>2/13/2026 9:27:36 AM</span>
+                  <span class='badge badge-danger'>2/13/2026 9:27:43 AM</span>
+                  <span class='badge badge-default'>7586.01 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=33</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>7585.02</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="34">Login Page - Password Case Sensitivity</div>
+                                  </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:27:37</td>
+        <td>
+Enter URL          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092736.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092736.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:27:38</td>
+        <td>
+Enter Username          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092738.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092738.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:27:40</td>
+        <td>
+Enter Password          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092740.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092740.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:27:41</td>
+        <td>
+Click on Login Button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092741.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092741.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Feb 13, 2026 09:27:43</td>
+        <td>
+Attempted login with password case variation                  </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="35"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestCase_006_blankPassword</p>
+            <p class="text-sm">
+              <span>9:27:50 AM</span> / <span>7249.8 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestCase_006_blankPassword</h5>
+                  <span class='badge badge-success'>2/13/2026 9:27:50 AM</span>
+                  <span class='badge badge-danger'>2/13/2026 9:27:58 AM</span>
+                  <span class='badge badge-default'>7249.8 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=35</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>7248.83</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="36">Login Page - Blank Password</div>
+                                  </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:27:52</td>
+        <td>
+Enter URL          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092752.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092752.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:27:53</td>
+        <td>
+Enter Username          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092753.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092753.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:27:54</td>
+        <td>
+Enter Password          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092754.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092754.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:27:56</td>
+        <td>
+Click on Login Button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092756.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092756.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Feb 13, 2026 09:27:58</td>
+        <td>
+Attempted login with blank password                  </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="37"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestCase_007_blankUsername</p>
+            <p class="text-sm">
+              <span>9:28:15 AM</span> / <span>7489.06 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestCase_007_blankUsername</h5>
+                  <span class='badge badge-success'>2/13/2026 9:28:15 AM</span>
+                  <span class='badge badge-danger'>2/13/2026 9:28:23 AM</span>
+                  <span class='badge badge-default'>7489.06 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=37</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>7488.06</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="38">Login Page - Blank Username</div>
+                                  </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:28:17</td>
+        <td>
+Enter URL          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092817.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092817.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:28:18</td>
+        <td>
+Enter Username          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092818.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092818.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:28:19</td>
+        <td>
+Enter Password          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092819.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092819.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:28:21</td>
+        <td>
+Click on Login Button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092821.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092821.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Feb 13, 2026 09:28:23</td>
+        <td>
+Attempted login with blank username                  </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="39"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">ProductsTestCase_001_AddSingleProduct</p>
+            <p class="text-sm">
+              <span>9:28:27 AM</span> / <span>7908.32 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">ProductsTestCase_001_AddSingleProduct</h5>
+                  <span class='badge badge-success'>2/13/2026 9:28:27 AM</span>
+                  <span class='badge badge-danger'>2/13/2026 9:28:35 AM</span>
+                  <span class='badge badge-default'>7908.32 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=39</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>7907.33</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="40">Add Single Product</div>
+                                  </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:28:29</td>
+        <td>
+Enter URL          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092827.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092827.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:28:30</td>
+        <td>
+Enter Username          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092830.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092830.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:28:31</td>
+        <td>
+Enter Password          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092831.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092831.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:28:33</td>
+        <td>
+Click on Login Button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092833.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092833.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:28:34</td>
+        <td>
+Backpack added          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092834.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092834.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:28:35</td>
+        <td>
+Single product added successfully                  </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="41"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">ProductsTestCase_002_AddMultipleProducts</p>
+            <p class="text-sm">
+              <span>9:28:47 AM</span> / <span>11265.81 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">ProductsTestCase_002_AddMultipleProducts</h5>
+                  <span class='badge badge-success'>2/13/2026 9:28:47 AM</span>
+                  <span class='badge badge-danger'>2/13/2026 9:28:58 AM</span>
+                  <span class='badge badge-default'>11265.81 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=41</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>11264.82</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="42">Add Multiple Products</div>
+                                  </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:28:48</td>
+        <td>
+Enter URL          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092848.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092848.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:28:50</td>
+        <td>
+Enter Username          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092850.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092850.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:28:51</td>
+        <td>
+Enter Password          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092851.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092851.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:28:53</td>
+        <td>
+Click on Login Button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092852.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092852.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:28:54</td>
+        <td>
+Backpack added          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092854.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092854.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:28:55</td>
+        <td>
+Bike light added          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092855.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092855.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:28:57</td>
+        <td>
+Bolt T-Shirt added          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092857.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092857.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:28:58</td>
+        <td>
+Multiple products added successfully                  </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="43"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">ProductsTestCase_003_RemoveProduct</p>
+            <p class="text-sm">
+              <span>9:29:21 AM</span> / <span>8091.95 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">ProductsTestCase_003_RemoveProduct</h5>
+                  <span class='badge badge-success'>2/13/2026 9:29:21 AM</span>
+                  <span class='badge badge-danger'>2/13/2026 9:29:29 AM</span>
+                  <span class='badge badge-default'>8091.95 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=43</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>8088.96</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="44">Remove Product</div>
+                                  </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:29:22</td>
+        <td>
+Enter URL          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092922.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092922.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:29:24</td>
+        <td>
+Enter Username          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092924.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092924.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:29:25</td>
+        <td>
+Enter Password          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092925.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092925.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:29:26</td>
+        <td>
+Click on Login Button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092926.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092926.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:29:28</td>
+        <td>
+Backpack added          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092928.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092928.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:29:28</td>
+        <td>
+Backpack removed          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092928.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092928.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:29:29</td>
+        <td>
+Product removed and cart is empty                  </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="45"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">ProductsTestCase_004_OpenCart</p>
+            <p class="text-sm">
+              <span>9:29:37 AM</span> / <span>9982.98 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">ProductsTestCase_004_OpenCart</h5>
+                  <span class='badge badge-success'>2/13/2026 9:29:37 AM</span>
+                  <span class='badge badge-danger'>2/13/2026 9:29:47 AM</span>
+                  <span class='badge badge-default'>9982.98 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=45</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>9981.98</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="46">Open Cart</div>
+                                  </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:29:41</td>
+        <td>
+Enter URL          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092941.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092941.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:29:42</td>
+        <td>
+Enter Username          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092942.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092942.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:29:43</td>
+        <td>
+Enter Password          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092943.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092943.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:29:45</td>
+        <td>
+Click on Login Button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092945.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092945.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:29:46</td>
+        <td>
+Backpack added          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092946.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092946.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:29:47</td>
+        <td>
+Cart opened          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092947.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092947.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:29:47</td>
+        <td>
+Cart opened successfully                  </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="47"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">ProductsTestCase_005_SortProducts</p>
+            <p class="text-sm">
+              <span>9:29:50 AM</span> / <span>7511.57 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">ProductsTestCase_005_SortProducts</h5>
+                  <span class='badge badge-success'>2/13/2026 9:29:50 AM</span>
+                  <span class='badge badge-danger'>2/13/2026 9:29:58 AM</span>
+                  <span class='badge badge-default'>7511.57 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=47</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>7494.57</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="48">Sort Products</div>
+                                  </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:29:52</td>
+        <td>
+Enter URL          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092951.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092951.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:29:53</td>
+        <td>
+Enter Username          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092953.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092953.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:29:54</td>
+        <td>
+Enter Password          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092954.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092954.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:29:56</td>
+        <td>
+Click on Login Button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092956.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092956.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:29:58</td>
+        <td>
+Products sorted          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092957.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213092957.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:29:58</td>
+        <td>
+Products sorted successfully                  </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="49"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">ProductsTestCase_006_VerifyCartCount</p>
+            <p class="text-sm">
+              <span>9:30:20 AM</span> / <span>17452.03 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">ProductsTestCase_006_VerifyCartCount</h5>
+                  <span class='badge badge-success'>2/13/2026 9:30:20 AM</span>
+                  <span class='badge badge-danger'>2/13/2026 9:30:37 AM</span>
+                  <span class='badge badge-default'>17452.03 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=49</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>17451.03</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="50">Verify Cart Count</div>
+                                  </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:30:31</td>
+        <td>
+Enter URL          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213093031.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213093031.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:30:33</td>
+        <td>
+Enter Username          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213093032.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213093032.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:30:34</td>
+        <td>
+Enter Password          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213093034.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213093034.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:30:35</td>
+        <td>
+Click on Login Button          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213093035.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213093035.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:30:37</td>
+        <td>
+Backpack added          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213093036.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213093036.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:30:37</td>
+        <td>
+Bike light added          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213093037.png' src="C:\Users\User\source\repos\TestingProject\TestingProject\ExtentReports\images\20260213093037.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Feb 13, 2026 09:30:37</td>
+        <td>
+Cart count verified correctly                  </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="test-content scrollable">
+    <div class="test-content-tools">
+      <ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+    </div>
+    <div class="test-content-detail"><div class="detail-body"></div></div>
+  </div>
+</div>
+
+                    
+
+<div class="container-fluid p-4 view dashboard-view">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0">Started</p>
+          <h3>2/13/2026 9:21:08 AM</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0">Ended</p>
+          <h3>2/13/2026 9:30:53 AM</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0 text-pass">Tests Passed</p>
+          <h3>25</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0 text-fail">Tests Failed</p>
+          <h3>0</h3>
+      </div></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Tests</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='parent-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='1%'>
+            <b>25</b> tests passed
+            </small>
+          </div>
+          <div>
+            <small data-tooltip='0%'><b>0</b> tests failed, 
+            <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Steps</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='child-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='1%'><b>25</b> steps passed</small></div>
+          <div>
+            <small data-tooltip='0%'><b>0</b> steps failed, 
+            <b>0</b> skipped, <b data-tooltip='%'>0</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+            <div class="col-md-4">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Log events</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='events-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='0%'><b>192</b> events passed</small></div>
+          <div>
+            <small data-tooltip='0%'><b>0</b> events failed, 
+            <b data-tooltip='%'>7</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row"><div class="col-md-12">
+    <div class="card"><div class="card-header"><p>Timeline</p></div>
+      <div class="card-body pt-0"><div>
+        <canvas id="timeline" height="120"></canvas>
+      </div></div>
+    </div>
+  </div></div>
+  <script>
+	var timeline = { "CartTestCase_001_AddSingleProduct":9405.8,"CartTestCase_002_AddMultipleProducts":12460.2917,"CartTestCase_003_RemoveProduct":9956.1514,"CartTestCase_004_OpenEmptyCart":8779.0801,"CartTestCase_005_AddRemoveAddAgain":12960.3908,"CartTestCase_006_CheckoutButtonVisible":9318.4802,"CartTestCase_007_AddProductAfterBack":11510.8403,"CartTestCase_008_MultipleCartOpen":12643.0043,"CheckoutTestCase_001_SingleProduct":14384.4412,"CheckoutTestCase_002_MultipleProducts":16404.2373,"CheckoutTestCase_003_EmptyFirstName":11438.2147,"CheckoutTestCase_004_EmptyPostalCode":11880.7507,"TestCase_001_validEmailValidPassword_positive":8182.0966,"TestCase_002_invalidPassword":7994.4375,"TestCase_003_invalidUsername":7605.5339,"TestCase_004_emptyCredentials":7680.9084,"TestCase_005_passwordCaseSensitivity":7586.0143,"TestCase_006_blankPassword":7249.7974,"TestCase_007_blankUsername":7489.0587,"ProductsTestCase_001_AddSingleProduct":7908.3249,"ProductsTestCase_002_AddMultipleProducts":11265.806,"ProductsTestCase_003_RemoveProduct":8091.946,"ProductsTestCase_004_OpenCart":9982.9797,"ProductsTestCase_005_SortProducts":7511.5744,"ProductsTestCase_006_VerifyCartCount":17452.0325 };
+  </script>
+  <div class="row">
+              </div>
+</div>
+<script>
+  var statusGroup = {
+    parentCount: 25,
+    childCount: 25,
+    grandChildCount: 0,
+    eventsCount: 199,
+
+passParent:25,failParent:0,warningParent:0,skipParent:0,    
+passChild:25,failChild:0,warningChild:0,skipChild:0,infoChild:0,    
+passGrandChild:0,failGrandChild:0,warningGrandChild:0,skipGrandChild:0,infoGrandChild:0,    
+passEvents:192,failEvents:0,warningEvents:0,skipEvents:0,infoEvents:7,  };
+</script>
+
+    </div>
+   </div>
+  </div>
+ </div>
+ <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/spark/js/spark-script.js"></script>
+<script type='text/javascript'></script>
+</body>
+</html>
